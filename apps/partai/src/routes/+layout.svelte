@@ -1,9 +1,12 @@
 <script lang="ts">
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
+	import { ClerkProvider } from 'svelte-clerk';
 
-	let { children } = $props();
+	let { children }: { children: import('svelte').Snippet } = $props();
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
-{@render children()}
+<ClerkProvider>
+	{@render children()}
+</ClerkProvider>

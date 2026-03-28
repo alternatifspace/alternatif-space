@@ -66,16 +66,18 @@
 
 		<!-- CTA buttons -->
 		<div class="flex flex-col gap-3">
-			<button
-				class="w-full bg-amber-400 hover:bg-amber-300 active:bg-amber-500 text-zinc-900 font-bold text-base py-4 rounded-2xl transition-colors"
+			<a
+				href="/daftar"
+				class="w-full bg-amber-400 hover:bg-amber-300 active:bg-amber-500 text-zinc-900 font-bold text-base py-4 rounded-2xl transition-colors text-center"
 			>
 				Mulai — Daftar Gratis
-			</button>
-			<button
-				class="w-full bg-zinc-800/80 hover:bg-zinc-700/80 active:bg-zinc-800 text-white font-medium text-base py-4 rounded-2xl transition-colors border border-zinc-700"
+			</a>
+			<a
+				href="/masuk"
+				class="w-full bg-zinc-800/80 hover:bg-zinc-700/80 active:bg-zinc-800 text-white font-medium text-base py-4 rounded-2xl transition-colors border border-zinc-700 text-center"
 			>
 				Sudah punya akun? Masuk
-			</button>
+			</a>
 		</div>
 
 		<!-- Footer -->
