@@ -37,6 +37,10 @@
 		<!-- Clerk SignUp component -->
 		<div class="flex justify-center">
 			<SignUp
+				routing="path"
+				path="/daftar"
+				signInUrl="/masuk"
+				forceRedirectUrl="/bergabung"
 				appearance={{
 					baseTheme: undefined,
 					variables: {
@@ -58,7 +62,7 @@
 							'border-zinc-700 text-white hover:bg-zinc-800 transition-colors',
 						formButtonPrimary:
 							'bg-amber-400 hover:bg-amber-300 text-zinc-900 font-bold rounded-2xl',
-						footerActionLink: 'text-amber-400 hover:text-amber-300',
+						footer: 'hidden',
 						identityPreviewEditButton: 'text-amber-400',
 						formFieldInput:
 							'bg-zinc-900 border-zinc-700 text-white rounded-xl focus:border-amber-400',
